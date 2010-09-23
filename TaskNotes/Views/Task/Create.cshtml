@@ -1,0 +1,28 @@
+﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TaskDto>
+
+@{
+    View.Title = "Add stuff that needs to be done";
+    LayoutPage = "~/Views/Shared/_Master.cshtml";	
+}
+	@{Html.EnableClientValidation();}
+	
+	@using(Html.BeginForm("Create", "Task")){
+	
+		@Html.ValidationMessageFor(m => m.Due)
+		@Html.ValidationMessageFor(m => m.Description) 
+
+		<div class="task">	
+			<span>
+				Due @Html.TextBoxFor(m => m.Due) 
+			</span>
+			@Html.TextAreaFor(m => m.Description)				
+		</div>
+							
+			<input type="submit" />
+			
+		<div class="footer">		
+			<a href="/Tasks/All">Cancel</a>
+		</div>
+	
+	}
+

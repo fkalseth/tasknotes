@@ -1,0 +1,23 @@
+C:\Source\_Projects\NextTask\Cqrs\bin\Debug\Cqrs.dll
+C:\Source\_Projects\NextTask\Cqrs\bin\Debug\Cqrs.pdb
+C:\Source\_Projects\NextTask\Cqrs\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\_Projects\NextTask\Cqrs\obj\Debug\Cqrs.dll
+C:\Source\_Projects\NextTask\Cqrs\obj\Debug\Cqrs.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Cqrs.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Cqrs.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\Cqrs.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\Cqrs.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Cqrs.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Cqrs.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\Cqrs.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\obj\Debug\Cqrs.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Ninject.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\nunit.framework.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Ninject.xml
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\nunit.framework.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Ninject.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\nunit.framework.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\Ninject.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\Cqrs\bin\Debug\nunit.framework.xml

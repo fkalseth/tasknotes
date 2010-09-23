@@ -1,0 +1,14 @@
+﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TasksDto>
+
+@{
+    View.Title = "Stuff that needs to be done";
+    LayoutPage = "~/Views/Shared/_Master.cshtml";
+}
+	
+	<a href="/Task/Create">Add stuff</a>
+
+	@foreach(var task in Model.Tasks){
+	
+		@Html.DisplayFor(t => task)
+	}
+

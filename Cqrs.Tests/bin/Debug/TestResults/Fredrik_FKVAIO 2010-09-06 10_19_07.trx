@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5004c5a-f61a-477e-8e77-eb597407f781" name="Fredrik@FKVAIO 2010-09-06 10:19:07" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-06 10_19_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-06T10:19:07.3057481+02:00" queuing="2010-09-06T10:19:07.6027651+02:00" start="2010-09-06T10:19:08.0067882+02:00" finish="2010-09-06T10:19:08.2658030+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_write_aggregate_to_xml" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="a18e2191-d0ae-0d31-3c62-8dc6f968ed18">
+      <Execution timeOut="1800000" id="15707f6a-01fa-4b1d-baf4-d50bbf035d63" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_write_aggregate_to_xml" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" executionId="15707f6a-01fa-4b1d-baf4-d50bbf035d63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="15707f6a-01fa-4b1d-baf4-d50bbf035d63" testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" testName="can_write_aggregate_to_xml" computerName="FKVAIO" duration="00:00:00.0517034" startTime="2010-09-06T10:19:08.0517908+02:00" endTime="2010-09-06T10:19:08.1777980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15707f6a-01fa-4b1d-baf4-d50bbf035d63">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.XmlEventStorageTests.can_write_aggregate_to_xml threw exception: 
+System.ArgumentNullException: Buffer cannot be null.
+Parameter name: sb</Message>
+          <StackTrace>    at System.IO.StringWriter..ctor(StringBuilder sb, IFormatProvider formatProvider)
+   at System.IO.StringWriter..ctor(StringBuilder sb)
+   at Cqrs.Tests.XmlEventStorageTests.GetWriter(Guid aId) in C:\Source\_Projects\NextTask\Cqrs.Tests\XmlEventStorageTests.cs:line 61
+   at Cqrs.XmlEventStorage.Save(Guid aId, IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\XmlEventStorage.cs:line 38
+   at Cqrs.Tests.XmlEventStorageTests.can_write_aggregate_to_xml() in C:\Source\_Projects\NextTask\Cqrs.Tests\XmlEventStorageTests.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

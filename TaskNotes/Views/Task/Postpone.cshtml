@@ -1,0 +1,30 @@
+﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TaskDto>
+
+@{
+    View.Title = "Postpone this stuff, it can wait";
+    LayoutPage = "~/Views/Shared/_Master.cshtml";
+}
+	
+	@Html.ValidationMessageFor(m => m.Due)
+	
+	<form action="/Task/Postpone/" method="post">
+	
+		@Html.HiddenFor(m => m.Id)
+		@Html.HiddenFor(m => m.Description)
+	
+		<div class="task">
+	
+			<span>
+				Due @Html.TextBoxFor(m => m.Due) 
+			</span>
+			<p>@Model.Description</p>
+	
+		</div>
+					
+		<div class="footer">		
+					
+			<input type="submit" id="okButton" value="Postpone task" />
+			<a href="/Tasks/All">Cancel</a>
+		</div>
+	
+	</form>

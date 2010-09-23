@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d005b229-2049-4172-b614-2b949d6b1840" name="Fredrik@FKVAIO 2010-09-07 12:37:20" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-07 12_37_20" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-07T12:37:20.4805017+02:00" queuing="2010-09-07T12:37:20.7905194+02:00" start="2010-09-07T12:37:21.0665352+02:00" finish="2010-09-07T12:37:22.0525916+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="17" executed="17" passed="11" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Multiple_handlers_invoked_when_publishing_event" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="90ee55b2-3f16-256a-2054-184e011d2701">
+      <Execution timeOut="1800000" id="da81c149-e351-4a5b-885c-c669d746239c" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Multiple_handlers_invoked_when_publishing_event" />
+    </UnitTest>
+    <UnitTest name="Can_get_tracked_aggregate" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="b64469f4-f509-bc16-7473-6d9c41518282">
+      <Execution timeOut="1800000" id="10d9a7ef-bebf-42b8-a87e-87219b6c3fb6" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_get_tracked_aggregate" />
+    </UnitTest>
+    <UnitTest name="Events_are_published_to_bus_on_commit" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="9e277b9e-7103-bb68-12d9-9d382a8e63eb">
+      <Execution timeOut="1800000" id="8a2dde1e-0bfa-481a-82a4-6c2d4ca7eabe" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Events_are_published_to_bus_on_commit" />
+    </UnitTest>
+    <UnitTest name="Handler_invoked_when_publishing_event" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2">
+      <Execution timeOut="1800000" id="467b605a-fe84-4a18-9131-f8ad82fceb10" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Handler_invoked_when_publishing_event" />
+    </UnitTest>
+    <UnitTest name="Can_track_aggregate" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="740d589c-dfdf-2f7c-9011-4ce23e7c829f">
+      <Execution timeOut="1800000" id="dc7e7c55-de13-442f-b3b2-85651d4b29b8" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_track_aggregate" />
+    </UnitTest>
+    <UnitTest name="Can_apply_domain_events_to_entity" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2fd786c2-9055-0b42-09cb-ae9b92184a5a">
+      <Execution timeOut="1800000" id="671372c5-7184-46e5-b622-f16b6da103e9" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_apply_domain_events_to_entity" />
+    </UnitTest>
+    <UnitTest name="Can_create_domain_entity" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="7efd8765-fae8-a608-14aa-de5d9f60cb29">
+      <Execution timeOut="1800000" id="5c370346-40a2-4b77-a07e-98d95b061259" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_create_domain_entity" />
+    </UnitTest>
+    <UnitTest name="Throws_exception_when_applying_unknown_event_on_aggregate_root" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="1461b895-bbc7-b431-c049-57c59f39bac6">
+      <Execution timeOut="1800000" id="079f32e1-accc-44b1-9e4a-db722d8459ae" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_exception_when_applying_unknown_event_on_aggregate_root" />
+    </UnitTest>
+    <UnitTest name="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701">
+      <Execution timeOut="1800000" id="25a2d3bd-33a3-42b6-9ee4-54a1d34fb577" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" />
+    </UnitTest>
+    <UnitTest name="Can_commit_changes" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="651b38e4-0906-957e-a142-55f881b173d3">
+      <Execution timeOut="1800000" id="4652a141-b49b-4ebf-83f5-cbdaa10ee90b" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_commit_changes" />
+    </UnitTest>
+    <UnitTest name="can_write_aggregate_to_xml" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="a18e2191-d0ae-0d31-3c62-8dc6f968ed18">
+      <Execution timeOut="1800000" id="6abf52f3-5231-41b3-8671-5efd28e1aff6" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_write_aggregate_to_xml" />
+    </UnitTest>
+    <UnitTest name="Can_publish_event_when_no_handlers_registered" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="5fee3a36-6c00-f10e-1a22-809f0868a73a">
+      <Execution timeOut="1800000" id="b7ce0d79-51ba-4de6-9ea0-27ee9e52a396" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_publish_event_when_no_handlers_registered" />
+    </UnitTest>
+    <UnitTest name="Can_publish_multiple_events_when_no_handlers_registered" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a">
+      <Execution timeOut="1800000" id="cfe7477f-f6ea-4c07-9ac6-8c531d745eac" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_publish_multiple_events_when_no_handlers_registered" />
+    </UnitTest>
+    <UnitTest name="Can_load_aggregate_from_xml" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="9f841c14-b4e3-1a79-ed1b-02034833dca1">
+      <Execution timeOut="1800000" id="18b83748-1d62-4787-836b-400a0ff440b5" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_load_aggregate_from_xml" />
+    </UnitTest>
+    <UnitTest name="Loads_aggregate_From_eventstore_if_not_tracked" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e">
+      <Execution timeOut="1800000" id="56913f90-f148-4958-94f3-e59a52ac5bda" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.RepositoryTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Loads_aggregate_From_eventstore_if_not_tracked" />
+    </UnitTest>
+    <UnitTest name="Loads_aggregate_from_session_if_tracked" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937">
+      <Execution timeOut="1800000" id="7c8e5156-dbec-4dfa-a780-2c3c12671486" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.RepositoryTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Loads_aggregate_from_session_if_tracked" />
+    </UnitTest>
+    <UnitTest name="Other_handlers_not_invoked_when_publishing_event" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="78485a14-1814-da26-c4f8-10bda52aea57">
+      <Execution timeOut="1800000" id="8420fa7b-bbe7-4ad9-970d-6022a5be3e8b" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Other_handlers_not_invoked_when_publishing_event" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" executionId="671372c5-7184-46e5-b622-f16b6da103e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7efd8765-fae8-a608-14aa-de5d9f60cb29" executionId="5c370346-40a2-4b77-a07e-98d95b061259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701" executionId="25a2d3bd-33a3-42b6-9ee4-54a1d34fb577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1461b895-bbc7-b431-c049-57c59f39bac6" executionId="079f32e1-accc-44b1-9e4a-db722d8459ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fee3a36-6c00-f10e-1a22-809f0868a73a" executionId="b7ce0d79-51ba-4de6-9ea0-27ee9e52a396" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a" executionId="cfe7477f-f6ea-4c07-9ac6-8c531d745eac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2" executionId="467b605a-fe84-4a18-9131-f8ad82fceb10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ee55b2-3f16-256a-2054-184e011d2701" executionId="da81c149-e351-4a5b-885c-c669d746239c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78485a14-1814-da26-c4f8-10bda52aea57" executionId="8420fa7b-bbe7-4ad9-970d-6022a5be3e8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" executionId="56913f90-f148-4958-94f3-e59a52ac5bda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937" executionId="7c8e5156-dbec-4dfa-a780-2c3c12671486" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="651b38e4-0906-957e-a142-55f881b173d3" executionId="4652a141-b49b-4ebf-83f5-cbdaa10ee90b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b64469f4-f509-bc16-7473-6d9c41518282" executionId="10d9a7ef-bebf-42b8-a87e-87219b6c3fb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="740d589c-dfdf-2f7c-9011-4ce23e7c829f" executionId="dc7e7c55-de13-442f-b3b2-85651d4b29b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e277b9e-7103-bb68-12d9-9d382a8e63eb" executionId="8a2dde1e-0bfa-481a-82a4-6c2d4ca7eabe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" executionId="18b83748-1d62-4787-836b-400a0ff440b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" executionId="6abf52f3-5231-41b3-8671-5efd28e1aff6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="671372c5-7184-46e5-b622-f16b6da103e9" testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" testName="Can_apply_domain_events_to_entity" computerName="FKVAIO" duration="00:00:00.0544427" startTime="2010-09-07T12:37:21.1375393+02:00" endTime="2010-09-07T12:37:21.2705469+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671372c5-7184-46e5-b622-f16b6da103e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.AggregateRootTests.Can_apply_domain_events_to_entity threw exception: 
+Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 33
+   at Cqrs.Tests.SomeDomainEntityWithEvents.Apply(IDomainEvent ev) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 15
+   at Cqrs.Tests.AggregateRootTests.Can_apply_domain_events_to_entity() in C:\Source\_Projects\NextTask\Cqrs.Tests\AggregateRootTests.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c370346-40a2-4b77-a07e-98d95b061259" testId="7efd8765-fae8-a608-14aa-de5d9f60cb29" testName="Can_create_domain_entity" computerName="FKVAIO" duration="00:00:00.0017446" startTime="2010-09-07T12:37:21.2745471+02:00" endTime="2010-09-07T12:37:21.2765472+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c370346-40a2-4b77-a07e-98d95b061259">
+    </UnitTestResult>
+    <UnitTestResult executionId="25a2d3bd-33a3-42b6-9ee4-54a1d34fb577" testId="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701" testName="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" computerName="FKVAIO" duration="00:00:00.0016544" startTime="2010-09-07T12:37:21.2865478+02:00" endTime="2010-09-07T12:37:21.2955483+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25a2d3bd-33a3-42b6-9ee4-54a1d34fb577">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.AggregateRootTests.Event_handler_invoked_when_applying_domain_event_to_aggregate_root threw exception: 
+Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 33
+   at Cqrs.Tests.SomeDomainEntityWithEvents.Apply(IDomainEvent ev) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 15
+   at Cqrs.Tests.AggregateRootTests.Event_handler_invoked_when_applying_domain_event_to_aggregate_root() in C:\Source\_Projects\NextTask\Cqrs.Tests\AggregateRootTests.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="079f32e1-accc-44b1-9e4a-db722d8459ae" testId="1461b895-bbc7-b431-c049-57c59f39bac6" testName="Throws_exception_when_applying_unknown_event_on_aggregate_root" computerName="FKVAIO" duration="00:00:00.0044208" startTime="2010-09-07T12:37:21.3035488+02:00" endTime="2010-09-07T12:37:21.3125493+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="079f32e1-accc-44b1-9e4a-db722d8459ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7ce0d79-51ba-4de6-9ea0-27ee9e52a396" testId="5fee3a36-6c00-f10e-1a22-809f0868a73a" testName="Can_publish_event_when_no_handlers_registered" computerName="FKVAIO" duration="00:00:00.0017467" startTime="2010-09-07T12:37:21.3165495+02:00" endTime="2010-09-07T12:37:21.3195497+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7ce0d79-51ba-4de6-9ea0-27ee9e52a396">
+    </UnitTestResult>
+    <UnitTestResult executionId="cfe7477f-f6ea-4c07-9ac6-8c531d745eac" testId="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a" testName="Can_publish_multiple_events_when_no_handlers_registered" computerName="FKVAIO" duration="00:00:00.0011655" startTime="2010-09-07T12:37:21.3215498+02:00" endTime="2010-09-07T12:37:21.3235499+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfe7477f-f6ea-4c07-9ac6-8c531d745eac">
+    </UnitTestResult>
+    <UnitTestResult executionId="467b605a-fe84-4a18-9131-f8ad82fceb10" testId="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2" testName="Handler_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0015556" startTime="2010-09-07T12:37:21.3265501+02:00" endTime="2010-09-07T12:37:21.3295503+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="467b605a-fe84-4a18-9131-f8ad82fceb10">
+    </UnitTestResult>
+    <UnitTestResult executionId="da81c149-e351-4a5b-885c-c669d746239c" testId="90ee55b2-3f16-256a-2054-184e011d2701" testName="Multiple_handlers_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0016501" startTime="2010-09-07T12:37:21.3325504+02:00" endTime="2010-09-07T12:37:21.3345506+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da81c149-e351-4a5b-885c-c669d746239c">
+    </UnitTestResult>
+    <UnitTestResult executionId="8420fa7b-bbe7-4ad9-970d-6022a5be3e8b" testId="78485a14-1814-da26-c4f8-10bda52aea57" testName="Other_handlers_not_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0012288" startTime="2010-09-07T12:37:21.3365507+02:00" endTime="2010-09-07T12:37:21.3385508+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8420fa7b-bbe7-4ad9-970d-6022a5be3e8b">
+    </UnitTestResult>
+    <UnitTestResult executionId="56913f90-f148-4958-94f3-e59a52ac5bda" testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" testName="Loads_aggregate_From_eventstore_if_not_tracked" computerName="FKVAIO" duration="00:00:00.0036137" startTime="2010-09-07T12:37:21.3405509+02:00" endTime="2010-09-07T12:37:21.3445511+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56913f90-f148-4958-94f3-e59a52ac5bda">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c8e5156-dbec-4dfa-a780-2c3c12671486" testId="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937" testName="Loads_aggregate_from_session_if_tracked" computerName="FKVAIO" duration="00:00:00.0008840" startTime="2010-09-07T12:37:21.3485514+02:00" endTime="2010-09-07T12:37:21.3495514+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c8e5156-dbec-4dfa-a780-2c3c12671486">
+    </UnitTestResult>
+    <UnitTestResult executionId="4652a141-b49b-4ebf-83f5-cbdaa10ee90b" testId="651b38e4-0906-957e-a142-55f881b173d3" testName="Can_commit_changes" computerName="FKVAIO" duration="00:00:00.0018148" startTime="2010-09-07T12:37:21.3515515+02:00" endTime="2010-09-07T12:37:21.3545517+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4652a141-b49b-4ebf-83f5-cbdaa10ee90b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.SessionTests.Can_commit_changes threw exception: 
+Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 33
+   at Cqrs.Tests.SomeDomainEntityWithEvents.Apply(IDomainEvent ev) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 15
+   at Cqrs.Tests.SessionTests.Can_commit_changes() in C:\Source\_Projects\NextTask\Cqrs.Tests\SessionTests.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10d9a7ef-bebf-42b8-a87e-87219b6c3fb6" testId="b64469f4-f509-bc16-7473-6d9c41518282" testName="Can_get_tracked_aggregate" computerName="FKVAIO" duration="00:00:00.0008862" startTime="2010-09-07T12:37:21.3575519+02:00" endTime="2010-09-07T12:37:21.3595520+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10d9a7ef-bebf-42b8-a87e-87219b6c3fb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc7e7c55-de13-442f-b3b2-85651d4b29b8" testId="740d589c-dfdf-2f7c-9011-4ce23e7c829f" testName="Can_track_aggregate" computerName="FKVAIO" duration="00:00:00.0010384" startTime="2010-09-07T12:37:21.3615521+02:00" endTime="2010-09-07T12:37:21.3635522+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc7e7c55-de13-442f-b3b2-85651d4b29b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a2dde1e-0bfa-481a-82a4-6c2d4ca7eabe" testId="9e277b9e-7103-bb68-12d9-9d382a8e63eb" testName="Events_are_published_to_bus_on_commit" computerName="FKVAIO" duration="00:00:00.0017917" startTime="2010-09-07T12:37:21.3655523+02:00" endTime="2010-09-07T12:37:21.3675525+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2dde1e-0bfa-481a-82a4-6c2d4ca7eabe">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.SessionTests.Events_are_published_to_bus_on_commit threw exception: 
+Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 33
+   at Cqrs.Tests.SomeDomainEntityWithEvents.Apply(IDomainEvent ev) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 15
+   at Cqrs.Tests.SessionTests.Events_are_published_to_bus_on_commit() in C:\Source\_Projects\NextTask\Cqrs.Tests\SessionTests.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18b83748-1d62-4787-836b-400a0ff440b5" testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" testName="Can_load_aggregate_from_xml" computerName="FKVAIO" duration="00:00:00.5956095" startTime="2010-09-07T12:37:21.3705526+02:00" endTime="2010-09-07T12:37:21.9675868+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18b83748-1d62-4787-836b-400a0ff440b5">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.XmlEventStorageTests.Can_load_aggregate_from_xml threw exception: 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 22
+   at Cqrs.Tests.SomeDomainEntityWithEvents..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 9
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct&amp; signature, RuntimeType declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct signature, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Cqrs.XmlEventStorage.Load[TAggregate](Guid aId) in C:\Source\_Projects\NextTask\Cqrs\XmlEventStorage.cs:line 32
+   at Cqrs.Tests.XmlEventStorageTests.Can_load_aggregate_from_xml() in C:\Source\_Projects\NextTask\Cqrs.Tests\XmlEventStorageTests.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6abf52f3-5231-41b3-8671-5efd28e1aff6" testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" testName="can_write_aggregate_to_xml" computerName="FKVAIO" duration="00:00:00.0012348" startTime="2010-09-07T12:37:21.9695869+02:00" endTime="2010-09-07T12:37:21.9735871+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6abf52f3-5231-41b3-8671-5efd28e1aff6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Cqrs.Tests.XmlEventStorageTests.can_write_aggregate_to_xml threw exception: 
+Cqrs.UnknownDomainEventException: Aggregate root has no known handler for Cqrs.Tests.SomeDomainEvent</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 33
+   at Cqrs.Tests.SomeDomainEntityWithEvents.Apply(IDomainEvent ev) in C:\Source\_Projects\NextTask\Cqrs.Tests\TestClasses\SomeDomainEntityWithEvents.cs:line 15
+   at Cqrs.Tests.XmlEventStorageTests.can_write_aggregate_to_xml() in C:\Source\_Projects\NextTask\Cqrs.Tests\XmlEventStorageTests.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

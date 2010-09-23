@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8df7c1ec-9316-481f-bb56-32e60c2f3ae1" name="fkalseth@Z9402491 2010-09-16 16:17:51" runUser="CORP\fkalseth" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="fkalseth_Z9402491 2010-09-16 16_17_51" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-16T16:17:51.3586217+02:00" queuing="2010-09-16T16:17:51.6146473+02:00" start="2010-09-16T16:17:51.8956754+02:00" finish="2010-09-16T16:17:53.4828341+02:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="6" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TaskPrioritised_event_is_published" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="e15260cc-8d7d-d0e2-46e8-7391435d2c0e">
+      <Execution timeOut="1800000" id="0475671a-e66a-405f-9db9-1a40339221b2" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_prioritising_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskPrioritised_event_is_published" />
+    </UnitTest>
+    <UnitTest name="TaskPostponed_event_is_published" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="48190fb3-47e2-4c5f-b51b-b8f8d829603b">
+      <Execution timeOut="1800000" id="4de35e88-02bb-4d43-8f9d-74c4933eb67a" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_postponing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskPostponed_event_is_published" />
+    </UnitTest>
+    <UnitTest name="Exception_is_thrown" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76">
+      <Execution timeOut="1800000" id="7b5feca2-6b36-4c32-8a92-d6a09b13dd34" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_postponing_task_with_new_due_date_less_than_existing_due_date, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Exception_is_thrown" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="7a533ce9-67f5-f9af-ad97-121a2f49f974">
+      <Execution timeOut="1800000" id="84aad8a4-fd21-49ba-83e4-a0976475fc8e" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_completing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="28c8e7d6-deb0-1a4d-e172-64b990106212">
+      <Execution timeOut="1800000" id="97daa965-5ee1-4db6-a959-929479143321" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_cancelling_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+    <UnitTest name="Exception_is_thrown" storage="c:\users\fkalseth\documents\my dropbox\dev\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="2b08e450-89fa-4f49-348f-b842a68ad041">
+      <Execution id="99cd9cf3-4c92-4f4a-b93f-1c863db2beba" />
+      <TestMethod codeBase="C:/Users/fkalseth/Documents/My Dropbox/Dev/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_cancelling_task_that_has_already_been_completed, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Exception_is_thrown" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28c8e7d6-deb0-1a4d-e172-64b990106212" executionId="97daa965-5ee1-4db6-a959-929479143321" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b08e450-89fa-4f49-348f-b842a68ad041" executionId="99cd9cf3-4c92-4f4a-b93f-1c863db2beba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" executionId="84aad8a4-fd21-49ba-83e4-a0976475fc8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" executionId="4de35e88-02bb-4d43-8f9d-74c4933eb67a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76" executionId="7b5feca2-6b36-4c32-8a92-d6a09b13dd34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e15260cc-8d7d-d0e2-46e8-7391435d2c0e" executionId="0475671a-e66a-405f-9db9-1a40339221b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97daa965-5ee1-4db6-a959-929479143321" testId="28c8e7d6-deb0-1a4d-e172-64b990106212" testName="TaskCancelled_event_is_published" computerName="Z9402491" duration="00:00:00.6984720" startTime="2010-09-16T16:17:52.0056864+02:00" endTime="2010-09-16T16:17:53.3488207+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97daa965-5ee1-4db6-a959-929479143321">
+    </UnitTestResult>
+    <UnitTestResult executionId="99cd9cf3-4c92-4f4a-b93f-1c863db2beba" testId="2b08e450-89fa-4f49-348f-b842a68ad041" testName="Exception_is_thrown" computerName="Z9402491" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99cd9cf3-4c92-4f4a-b93f-1c863db2beba">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA004: Illegal use of attribute on NextTask.Tests.When_cancelling_task_that_has_already_been_completed.Exception_is_thrown. The TestMethodAttribute can be defined only inside a class marked with the TestClass attribute.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84aad8a4-fd21-49ba-83e4-a0976475fc8e" testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" testName="TaskCancelled_event_is_published" computerName="Z9402491" duration="00:00:00.0061382" startTime="2010-09-16T16:17:53.3528211+02:00" endTime="2010-09-16T16:17:53.3728231+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84aad8a4-fd21-49ba-83e4-a0976475fc8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4de35e88-02bb-4d43-8f9d-74c4933eb67a" testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" testName="TaskPostponed_event_is_published" computerName="Z9402491" duration="00:00:00.0067024" startTime="2010-09-16T16:17:53.3768235+02:00" endTime="2010-09-16T16:17:53.3898248+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4de35e88-02bb-4d43-8f9d-74c4933eb67a">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b5feca2-6b36-4c32-8a92-d6a09b13dd34" testId="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76" testName="Exception_is_thrown" computerName="Z9402491" duration="00:00:00.0035680" startTime="2010-09-16T16:17:53.3998258+02:00" endTime="2010-09-16T16:17:53.4058264+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b5feca2-6b36-4c32-8a92-d6a09b13dd34">
+    </UnitTestResult>
+    <UnitTestResult executionId="0475671a-e66a-405f-9db9-1a40339221b2" testId="e15260cc-8d7d-d0e2-46e8-7391435d2c0e" testName="TaskPrioritised_event_is_published" computerName="Z9402491" duration="00:00:00.0051485" startTime="2010-09-16T16:17:53.4088267+02:00" endTime="2010-09-16T16:17:53.4148273+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0475671a-e66a-405f-9db9-1a40339221b2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

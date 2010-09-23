@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d3ad47e-a6d1-43db-9a52-407072381a21" name="Fredrik@FKVAIO 2010-09-07 12:37:24" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-07 12_37_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-07T12:37:24.2047147+02:00" queuing="2010-09-07T12:37:24.5037318+02:00" start="2010-09-07T12:37:24.8207500+02:00" finish="2010-09-07T12:37:25.2407740+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TaskPostponed_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="48190fb3-47e2-4c5f-b51b-b8f8d829603b">
+      <Execution timeOut="1800000" id="2263f2a6-7ec5-46cc-8ad5-82db98dde635" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_postponing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskPostponed_event_is_published" />
+    </UnitTest>
+    <UnitTest name="Exception_is_thrown" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76">
+      <Execution timeOut="1800000" id="2a6a0f75-a661-40e6-9ef7-9b6e7431ad2c" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_postponing_task_with_new_due_date_less_than_existing_due_date, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Exception_is_thrown" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="7a533ce9-67f5-f9af-ad97-121a2f49f974">
+      <Execution timeOut="1800000" id="eeff17b0-774d-4f77-9f7e-30e286e94682" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_completing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="28c8e7d6-deb0-1a4d-e172-64b990106212">
+      <Execution timeOut="1800000" id="25445f34-fe80-40bf-b39a-6a2669cca028" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_cancelling_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28c8e7d6-deb0-1a4d-e172-64b990106212" executionId="25445f34-fe80-40bf-b39a-6a2669cca028" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" executionId="eeff17b0-774d-4f77-9f7e-30e286e94682" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" executionId="2263f2a6-7ec5-46cc-8ad5-82db98dde635" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76" executionId="2a6a0f75-a661-40e6-9ef7-9b6e7431ad2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="25445f34-fe80-40bf-b39a-6a2669cca028" testId="28c8e7d6-deb0-1a4d-e172-64b990106212" testName="TaskCancelled_event_is_published" computerName="FKVAIO" duration="00:00:00.1132019" startTime="2010-09-07T12:37:24.8857537+02:00" endTime="2010-09-07T12:37:25.0997659+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25445f34-fe80-40bf-b39a-6a2669cca028">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method NextTask.Tests.When_cancelling_task.Setup threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; Cqrs.UnknownDomainEventException: Aggregate root has no known handler for NextTask.Models.TaskCreated.</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 22
+   at NextTask.Domain.Task..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\NextTask.Domain\Task.cs:line 14
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct&amp; signature, RuntimeType declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct signature, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at NextTask.Tests.CommandTestFixture`3.BuildAggregate() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 51
+   at NextTask.Tests.CommandTestFixture`3.Setup() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eeff17b0-774d-4f77-9f7e-30e286e94682" testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" testName="TaskCancelled_event_is_published" computerName="FKVAIO" duration="00:00:00.0042035" startTime="2010-09-07T12:37:25.1047662+02:00" endTime="2010-09-07T12:37:25.1167669+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeff17b0-774d-4f77-9f7e-30e286e94682">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method NextTask.Tests.When_completing_task.Setup threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; Cqrs.UnknownDomainEventException: Aggregate root has no known handler for NextTask.Models.TaskCreated.</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 22
+   at NextTask.Domain.Task..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\NextTask.Domain\Task.cs:line 14
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct&amp; signature, RuntimeType declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct signature, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at NextTask.Tests.CommandTestFixture`3.BuildAggregate() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 51
+   at NextTask.Tests.CommandTestFixture`3.Setup() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2263f2a6-7ec5-46cc-8ad5-82db98dde635" testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" testName="TaskPostponed_event_is_published" computerName="FKVAIO" duration="00:00:00.0145620" startTime="2010-09-07T12:37:25.1177670+02:00" endTime="2010-09-07T12:37:25.1417683+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2263f2a6-7ec5-46cc-8ad5-82db98dde635">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method NextTask.Tests.When_postponing_task.Setup threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; Cqrs.UnknownDomainEventException: Aggregate root has no known handler for NextTask.Models.TaskCreated.</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 22
+   at NextTask.Domain.Task..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\NextTask.Domain\Task.cs:line 14
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct&amp; signature, RuntimeType declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct signature, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at NextTask.Tests.CommandTestFixture`3.BuildAggregate() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 51
+   at NextTask.Tests.CommandTestFixture`3.Setup() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a6a0f75-a661-40e6-9ef7-9b6e7431ad2c" testId="98bb3bc4-05d4-f8e2-a91b-ad8e68c6fd76" testName="Exception_is_thrown" computerName="FKVAIO" duration="00:00:00.0027793" startTime="2010-09-07T12:37:25.1507688+02:00" endTime="2010-09-07T12:37:25.1577692+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a6a0f75-a661-40e6-9ef7-9b6e7431ad2c">
+      <Output>
+        <ErrorInfo>
+          <Message>Initialization method NextTask.Tests.When_postponing_task_with_new_due_date_less_than_existing_due_date.Setup threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; Cqrs.UnknownDomainEventException: Aggregate root has no known handler for NextTask.Models.TaskCreated.</Message>
+          <StackTrace>    at Cqrs.AggregateRoot.HandleEvent[TEvent](TEvent event) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 49
+   at Cqrs.AggregateRoot.Apply[TEvent](TEvent event, Boolean isNew) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 38
+   at Cqrs.AggregateRoot..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\Cqrs\AggregateRoot.cs:line 22
+   at NextTask.Domain.Task..ctor(IEnumerable`1 events) in C:\Source\_Projects\NextTask\NextTask.Domain\Task.cs:line 14
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct&amp; signature, RuntimeType declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(IRuntimeMethodInfo method, Object[] args, SignatureStruct signature, RuntimeType declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at NextTask.Tests.CommandTestFixture`3.BuildAggregate() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 51
+   at NextTask.Tests.CommandTestFixture`3.Setup() in C:\Source\_Projects\NextTask\NextTask.Tests\CommandTestFixture.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1695ab07-23fe-41aa-ad2e-42d696619ad4" name="Fredrik@FKVAIO 2010-09-07 12:39:50" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-07 12_39_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-07T12:39:50.8691035+02:00" queuing="2010-09-07T12:39:51.2331243+02:00" start="2010-09-07T12:39:51.4811385+02:00" finish="2010-09-07T12:39:51.7341529+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_apply_domain_events_to_entity" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2fd786c2-9055-0b42-09cb-ae9b92184a5a">
+      <Execution timeOut="1800000" id="56b5ab58-1304-434b-9c6f-fda0b50bd547" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_apply_domain_events_to_entity" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" executionId="56b5ab58-1304-434b-9c6f-fda0b50bd547" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56b5ab58-1304-434b-9c6f-fda0b50bd547" testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" testName="Can_apply_domain_events_to_entity" computerName="FKVAIO" duration="00:00:00.0300077" startTime="2010-09-07T12:39:51.5381417+02:00" endTime="2010-09-07T12:39:51.6501481+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56b5ab58-1304-434b-9c6f-fda0b50bd547">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="83c46fc6-b6aa-4b34-a3c0-412cdaf5a385" name="Fredrik@FKVAIO 2010-09-06 10:12:00" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-06 10_12_00" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-06T10:12:00.1113140+02:00" queuing="2010-09-06T10:12:00.4093310+02:00" start="2010-09-06T10:12:00.6543450+02:00" finish="2010-09-06T10:12:01.4423901+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_load_aggregate_from_xml" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="9f841c14-b4e3-1a79-ed1b-02034833dca1">
+      <Execution timeOut="1800000" id="621fbba8-e118-4f0f-a532-454456ef975a" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_load_aggregate_from_xml" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" executionId="621fbba8-e118-4f0f-a532-454456ef975a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="621fbba8-e118-4f0f-a532-454456ef975a" testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" testName="Can_load_aggregate_from_xml" computerName="FKVAIO" duration="00:00:00.5608065" startTime="2010-09-06T10:12:00.7143485+02:00" endTime="2010-09-06T10:12:01.3493848+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="621fbba8-e118-4f0f-a532-454456ef975a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

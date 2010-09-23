@@ -1,0 +1,160 @@
+/* line 14, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 8, ../sass/screen.scss */
+body {
+  font-family: "Segoe UI Light";
+  color: #353535;
+  background-image: url("../bg_tile.jpg");
+  margin: 25px;
+}
+
+/* line 17, ../sass/screen.scss */
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  font-size: 500%;
+  color: white;
+}
+
+/* line 28, ../sass/screen.scss */
+a {
+  color: #235870;
+  text-decoration: none;
+}
+
+/* line 34, ../sass/screen.scss */
+a:hover {
+  color: black;
+}
+
+/* line 39, ../sass/screen.scss */
+.task {
+  margin: 20px;
+  padding: 20px;
+  width: 243px;
+  height: 189px;
+  float: left;
+  background-image: url("../sticky.png");
+}
+
+/* line 49, ../sass/screen.scss */
+.past_due {
+  background-image: url("../sticky_red.png");
+}
+
+/* line 54, ../sass/screen.scss */
+.taskDescription, .task p, .task textarea {
+  font-size: 170%;
+  line-height: 130%;
+  height: 100px;
+}
+
+/* line 66, ../sass/screen.scss */
+.task textarea {
+  font-family: "Segoe UI Light";
+  width: 100%;
+  height: 140px;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 77, ../sass/screen.scss */
+.task span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 80%;
+  color: #1c1c1c;
+}
+
+/* line 85, ../sass/screen.scss */
+.task a {
+  font-size: 80%;
+  position: relative;
+  top: 50px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+/* line 95, ../sass/screen.scss */
+.watermark {
+  color: #999;
+}
+
+/* line 100, ../sass/screen.scss */
+.footer {
+  margin-left: 25px;
+  clear: both;
+}
+
+/* line 106, ../sass/screen.scss */
+.field-validation-error {
+  background-color: #1C1C1C;
+  background-image: url(../warning_icon.png);
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 30px;
+  padding-top: 3px;
+  left: 25px;
+  position: relative;
+  color: white;
+}

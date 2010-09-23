@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="890608ae-dbb9-42dc-8d6b-9c7178b31cab" name="Fredrik@FKVAIO 2010-09-05 16:13:07" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-05 16_13_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-05T16:13:07.9393432+02:00" queuing="2010-09-05T16:13:08.2343601+02:00" start="2010-09-05T16:13:08.4933749+02:00" finish="2010-09-05T16:13:08.7483895+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Loads_aggregate_From_eventstore_if_not_tracked" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e">
+      <Execution timeOut="1800000" id="d219e161-ad93-4f1e-b8d2-43d6fc291b9a" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.RepositoryTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Loads_aggregate_From_eventstore_if_not_tracked" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" executionId="d219e161-ad93-4f1e-b8d2-43d6fc291b9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d219e161-ad93-4f1e-b8d2-43d6fc291b9a" testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" testName="Loads_aggregate_From_eventstore_if_not_tracked" computerName="FKVAIO" duration="00:00:00.0189653" startTime="2010-09-05T16:13:08.5613788+02:00" endTime="2010-09-05T16:13:08.6603845+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d219e161-ad93-4f1e-b8d2-43d6fc291b9a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

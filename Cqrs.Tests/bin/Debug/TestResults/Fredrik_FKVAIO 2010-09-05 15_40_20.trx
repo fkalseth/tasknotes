@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d04e7940-1079-411a-a186-db2349cd0786" name="Fredrik@FKVAIO 2010-09-05 15:40:20" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-05 15_40_20" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-05T15:40:20.3108013+02:00" queuing="2010-09-05T15:40:20.6058182+02:00" start="2010-09-05T15:40:20.9008351+02:00" finish="2010-09-05T15:40:21.3248593+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Throws_InvalidOperation_when_applying_unregistered_event_on_aggregate_root" storage="c:\source\_projects\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="7b8f9de1-1319-5eba-fa89-c8b24a16ffd2">
+      <Execution timeOut="1800000" id="9fd6c377-1341-47f0-bf61-39979569a832" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.ApplyingEventsToAggregteRoot, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_InvalidOperation_when_applying_unregistered_event_on_aggregate_root" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7b8f9de1-1319-5eba-fa89-c8b24a16ffd2" executionId="9fd6c377-1341-47f0-bf61-39979569a832" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9fd6c377-1341-47f0-bf61-39979569a832" testId="7b8f9de1-1319-5eba-fa89-c8b24a16ffd2" testName="Throws_InvalidOperation_when_applying_unregistered_event_on_aggregate_root" computerName="FKVAIO" duration="00:00:00.0225877" startTime="2010-09-05T15:40:20.9518380+02:00" endTime="2010-09-05T15:40:21.0448433+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fd6c377-1341-47f0-bf61-39979569a832">
+    </UnitTestResult>
+  </Results>
+</TestRun>

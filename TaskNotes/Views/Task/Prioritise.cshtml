@@ -1,0 +1,30 @@
+﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TaskDto>
+
+@{
+    View.Title = "Prioritise this stuff, it's important";
+    LayoutPage = "~/Views/Shared/_Master.cshtml";
+}
+	
+	@Html.ValidationMessageFor(m => m.Due)
+	
+	<form action="/Task/Prioritise" method="post">
+	
+		@Html.HiddenFor(m => m.Id)
+		@Html.HiddenFor(m => m.Description)
+	
+		<div class="task">
+	
+			<span>
+				Due @Html.TextBoxFor(m => m.Due) 
+			</span>
+			<p>@Model.Description</p>
+	
+		</div>
+					
+		<div class="footer">		
+					
+			<input type="submit" id="okButton" value="Prioritise task" />
+			<a href="/Tasks/All">Cancel</a>
+		</div>
+
+	</form>

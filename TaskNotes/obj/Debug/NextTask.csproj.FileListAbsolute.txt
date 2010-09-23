@@ -1,0 +1,37 @@
+C:\Source\_Projects\NextTask\NextTask\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\_Projects\NextTask\NextTask\bin\NextTask.dll
+C:\Source\_Projects\NextTask\NextTask\bin\NextTask.pdb
+C:\Source\_Projects\NextTask\NextTask\bin\Cqrs.dll
+C:\Source\_Projects\NextTask\NextTask\bin\Cqrs.pdb
+C:\Source\_Projects\NextTask\NextTask\obj\Debug\NextTask.dll
+C:\Source\_Projects\NextTask\NextTask\obj\Debug\NextTask.pdb
+C:\Source\_Projects\NextTask\NextTask\bin\Ninject.dll
+C:\Source\_Projects\NextTask\NextTask\bin\Ninject.xml
+C:\Source\_Projects\NextTask\NextTask\bin\NextTask.Domain.dll
+C:\Source\_Projects\NextTask\NextTask\bin\NextTask.Domain.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Cqrs.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.Domain.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Ninject.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Cqrs.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.Domain.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Ninject.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\NextTask.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\NextTask.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Cqrs.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.Domain.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Ninject.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Cqrs.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\NextTask.Domain.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\Ninject.xml
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\NextTask.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\obj\Debug\NextTask.pdb
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\nunit.framework.dll
+C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\NextTask\bin\nunit.framework.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\nunit.framework.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\NextTask\NextTask\bin\nunit.framework.xml

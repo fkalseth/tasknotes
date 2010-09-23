@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="257d32bd-cffc-4211-84d2-6da4b073fa3f" name="Fredrik@FKVAIO 2010-09-18 14:34:30" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-18 14_34_30" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-18T14:34:30.5714383+02:00" queuing="2010-09-18T14:34:30.9474599+02:00" start="2010-09-18T14:34:31.2324762+02:00" finish="2010-09-18T14:34:33.2205899+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Multiple_handlers_invoked_when_publishing_event" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="90ee55b2-3f16-256a-2054-184e011d2701">
+      <Execution timeOut="1800000" id="5d57fa75-a381-4658-b2ff-9df497ed74c9" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Multiple_handlers_invoked_when_publishing_event" />
+    </UnitTest>
+    <UnitTest name="Can_get_tracked_aggregate" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="b64469f4-f509-bc16-7473-6d9c41518282">
+      <Execution timeOut="1800000" id="18f630ab-7e3d-42bc-811b-4c5c39a0ac90" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_get_tracked_aggregate" />
+    </UnitTest>
+    <UnitTest name="Events_are_published_to_bus_on_commit" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="9e277b9e-7103-bb68-12d9-9d382a8e63eb">
+      <Execution timeOut="1800000" id="bc61a35d-ee14-466c-abfd-fe2a40e92350" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Events_are_published_to_bus_on_commit" />
+    </UnitTest>
+    <UnitTest name="Handler_invoked_when_publishing_event" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2">
+      <Execution timeOut="1800000" id="1e271be2-bf6b-4d03-8e52-f3213c1da1f9" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Handler_invoked_when_publishing_event" />
+    </UnitTest>
+    <UnitTest name="Can_track_aggregate" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="740d589c-dfdf-2f7c-9011-4ce23e7c829f">
+      <Execution timeOut="1800000" id="fad2c64e-9ead-48f9-afcb-03f8d7c6dacb" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_track_aggregate" />
+    </UnitTest>
+    <UnitTest name="Can_apply_domain_events_to_entity" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2fd786c2-9055-0b42-09cb-ae9b92184a5a">
+      <Execution timeOut="1800000" id="a1c41e9c-39ae-4a16-93a8-aff1558337fa" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_apply_domain_events_to_entity" />
+    </UnitTest>
+    <UnitTest name="Can_create_domain_entity" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="7efd8765-fae8-a608-14aa-de5d9f60cb29">
+      <Execution timeOut="1800000" id="d1642a44-fef4-4c8f-a90b-6fe09c12ceb4" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_create_domain_entity" />
+    </UnitTest>
+    <UnitTest name="Throws_exception_when_applying_unknown_event_on_aggregate_root" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="1461b895-bbc7-b431-c049-57c59f39bac6">
+      <Execution timeOut="1800000" id="59f9bc0d-c99e-4b27-8870-548e7646cc85" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_exception_when_applying_unknown_event_on_aggregate_root" />
+    </UnitTest>
+    <UnitTest name="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701">
+      <Execution timeOut="1800000" id="4db6876a-cbce-4436-be8e-d97d5ceca6ac" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.AggregateRootTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" />
+    </UnitTest>
+    <UnitTest name="Can_commit_changes" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="651b38e4-0906-957e-a142-55f881b173d3">
+      <Execution timeOut="1800000" id="596b8ead-f710-4482-a66c-27dda47137a1" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.SessionTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_commit_changes" />
+    </UnitTest>
+    <UnitTest name="can_write_aggregate_to_xml" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="a18e2191-d0ae-0d31-3c62-8dc6f968ed18">
+      <Execution timeOut="1800000" id="05c51a9d-4420-4735-acd7-d0881758ff5c" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_write_aggregate_to_xml" />
+    </UnitTest>
+    <UnitTest name="Can_publish_event_when_no_handlers_registered" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="5fee3a36-6c00-f10e-1a22-809f0868a73a">
+      <Execution timeOut="1800000" id="96deb62f-823d-4c75-aeef-6a792b8bdc1c" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_publish_event_when_no_handlers_registered" />
+    </UnitTest>
+    <UnitTest name="Can_publish_multiple_events_when_no_handlers_registered" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a">
+      <Execution timeOut="1800000" id="abda7a8d-de08-48c3-b8f9-dadb357909fd" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_publish_multiple_events_when_no_handlers_registered" />
+    </UnitTest>
+    <UnitTest name="Can_load_aggregate_from_xml" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="9f841c14-b4e3-1a79-ed1b-02034833dca1">
+      <Execution timeOut="1800000" id="d719ff56-4af9-4f94-9af0-9c80389bedc3" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.XmlEventStorageTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_load_aggregate_from_xml" />
+    </UnitTest>
+    <UnitTest name="Loads_aggregate_From_eventstore_if_not_tracked" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e">
+      <Execution timeOut="1800000" id="26b06eb0-e883-4c85-8cc3-5ea22cfaa7ca" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.RepositoryTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Loads_aggregate_From_eventstore_if_not_tracked" />
+    </UnitTest>
+    <UnitTest name="Loads_aggregate_from_session_if_tracked" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937">
+      <Execution timeOut="1800000" id="73978e1e-53aa-4657-abda-092660793912" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.RepositoryTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Loads_aggregate_from_session_if_tracked" />
+    </UnitTest>
+    <UnitTest name="Other_handlers_not_invoked_when_publishing_event" storage="c:\users\fredrik\documents\my dropbox\dev\nexttask\cqrs.tests\bin\debug\cqrs.tests.dll" id="78485a14-1814-da26-c4f8-10bda52aea57">
+      <Execution timeOut="1800000" id="7b858388-0f4c-4be5-a045-a1486ee81cdb" />
+      <TestMethod codeBase="C:/Users/Fredrik/Documents/My Dropbox/Dev/NextTask/Cqrs.Tests/bin/Debug/Cqrs.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Cqrs.Tests.DefaultBusTests, Cqrs.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Other_handlers_not_invoked_when_publishing_event" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" executionId="a1c41e9c-39ae-4a16-93a8-aff1558337fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7efd8765-fae8-a608-14aa-de5d9f60cb29" executionId="d1642a44-fef4-4c8f-a90b-6fe09c12ceb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701" executionId="4db6876a-cbce-4436-be8e-d97d5ceca6ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1461b895-bbc7-b431-c049-57c59f39bac6" executionId="59f9bc0d-c99e-4b27-8870-548e7646cc85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fee3a36-6c00-f10e-1a22-809f0868a73a" executionId="96deb62f-823d-4c75-aeef-6a792b8bdc1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a" executionId="abda7a8d-de08-48c3-b8f9-dadb357909fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2" executionId="1e271be2-bf6b-4d03-8e52-f3213c1da1f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ee55b2-3f16-256a-2054-184e011d2701" executionId="5d57fa75-a381-4658-b2ff-9df497ed74c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78485a14-1814-da26-c4f8-10bda52aea57" executionId="7b858388-0f4c-4be5-a045-a1486ee81cdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" executionId="26b06eb0-e883-4c85-8cc3-5ea22cfaa7ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937" executionId="73978e1e-53aa-4657-abda-092660793912" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="651b38e4-0906-957e-a142-55f881b173d3" executionId="596b8ead-f710-4482-a66c-27dda47137a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b64469f4-f509-bc16-7473-6d9c41518282" executionId="18f630ab-7e3d-42bc-811b-4c5c39a0ac90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="740d589c-dfdf-2f7c-9011-4ce23e7c829f" executionId="fad2c64e-9ead-48f9-afcb-03f8d7c6dacb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e277b9e-7103-bb68-12d9-9d382a8e63eb" executionId="bc61a35d-ee14-466c-abfd-fe2a40e92350" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" executionId="d719ff56-4af9-4f94-9af0-9c80389bedc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" executionId="05c51a9d-4420-4735-acd7-d0881758ff5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a1c41e9c-39ae-4a16-93a8-aff1558337fa" testId="2fd786c2-9055-0b42-09cb-ae9b92184a5a" testName="Can_apply_domain_events_to_entity" computerName="FKVAIO" duration="00:00:00.0269330" startTime="2010-09-18T14:34:31.3004800+02:00" endTime="2010-09-18T14:34:31.4204869+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1c41e9c-39ae-4a16-93a8-aff1558337fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="d1642a44-fef4-4c8f-a90b-6fe09c12ceb4" testId="7efd8765-fae8-a608-14aa-de5d9f60cb29" testName="Can_create_domain_entity" computerName="FKVAIO" duration="00:00:00.0010753" startTime="2010-09-18T14:34:31.4264872+02:00" endTime="2010-09-18T14:34:31.4374879+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1642a44-fef4-4c8f-a90b-6fe09c12ceb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="4db6876a-cbce-4436-be8e-d97d5ceca6ac" testId="a2d9bbf9-183f-d3ea-3fd1-830a4c6fd701" testName="Event_handler_invoked_when_applying_domain_event_to_aggregate_root" computerName="FKVAIO" duration="00:00:00.0048320" startTime="2010-09-18T14:34:31.4444883+02:00" endTime="2010-09-18T14:34:31.4524887+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4db6876a-cbce-4436-be8e-d97d5ceca6ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="59f9bc0d-c99e-4b27-8870-548e7646cc85" testId="1461b895-bbc7-b431-c049-57c59f39bac6" testName="Throws_exception_when_applying_unknown_event_on_aggregate_root" computerName="FKVAIO" duration="00:00:00.0040313" startTime="2010-09-18T14:34:31.4614893+02:00" endTime="2010-09-18T14:34:31.4664895+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59f9bc0d-c99e-4b27-8870-548e7646cc85">
+    </UnitTestResult>
+    <UnitTestResult executionId="96deb62f-823d-4c75-aeef-6a792b8bdc1c" testId="5fee3a36-6c00-f10e-1a22-809f0868a73a" testName="Can_publish_event_when_no_handlers_registered" computerName="FKVAIO" duration="00:00:00.0013700" startTime="2010-09-18T14:34:31.4684897+02:00" endTime="2010-09-18T14:34:31.4724899+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96deb62f-823d-4c75-aeef-6a792b8bdc1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="abda7a8d-de08-48c3-b8f9-dadb357909fd" testId="bee24c8e-1f8b-e71b-e4a7-ee4a81c21e2a" testName="Can_publish_multiple_events_when_no_handlers_registered" computerName="FKVAIO" duration="00:00:00.0022429" startTime="2010-09-18T14:34:31.4744900+02:00" endTime="2010-09-18T14:34:31.4824905+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abda7a8d-de08-48c3-b8f9-dadb357909fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e271be2-bf6b-4d03-8e52-f3213c1da1f9" testId="2d2c1847-b97e-3e8a-d46b-e13544e7a3e2" testName="Handler_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0025471" startTime="2010-09-18T14:34:31.4854906+02:00" endTime="2010-09-18T14:34:31.4894909+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e271be2-bf6b-4d03-8e52-f3213c1da1f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d57fa75-a381-4658-b2ff-9df497ed74c9" testId="90ee55b2-3f16-256a-2054-184e011d2701" testName="Multiple_handlers_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0015830" startTime="2010-09-18T14:34:31.4924910+02:00" endTime="2010-09-18T14:34:31.4954912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d57fa75-a381-4658-b2ff-9df497ed74c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b858388-0f4c-4be5-a045-a1486ee81cdb" testId="78485a14-1814-da26-c4f8-10bda52aea57" testName="Other_handlers_not_invoked_when_publishing_event" computerName="FKVAIO" duration="00:00:00.0016475" startTime="2010-09-18T14:34:31.4994914+02:00" endTime="2010-09-18T14:34:31.5014915+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b858388-0f4c-4be5-a045-a1486ee81cdb">
+    </UnitTestResult>
+    <UnitTestResult executionId="26b06eb0-e883-4c85-8cc3-5ea22cfaa7ca" testId="2b601dc8-b359-6b2c-9510-f5d3a6f41f6e" testName="Loads_aggregate_From_eventstore_if_not_tracked" computerName="FKVAIO" duration="00:00:00.0055672" startTime="2010-09-18T14:34:31.5034917+02:00" endTime="2010-09-18T14:34:31.5104921+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26b06eb0-e883-4c85-8cc3-5ea22cfaa7ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="73978e1e-53aa-4657-abda-092660793912" testId="87f3b8b1-c12b-7c8c-6bb1-55f3fe9ed937" testName="Loads_aggregate_from_session_if_tracked" computerName="FKVAIO" duration="00:00:00.0008225" startTime="2010-09-18T14:34:31.5124922+02:00" endTime="2010-09-18T14:34:31.5134922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73978e1e-53aa-4657-abda-092660793912">
+    </UnitTestResult>
+    <UnitTestResult executionId="596b8ead-f710-4482-a66c-27dda47137a1" testId="651b38e4-0906-957e-a142-55f881b173d3" testName="Can_commit_changes" computerName="FKVAIO" duration="00:00:00.0072448" startTime="2010-09-18T14:34:31.5194926+02:00" endTime="2010-09-18T14:34:31.5274930+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="596b8ead-f710-4482-a66c-27dda47137a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="18f630ab-7e3d-42bc-811b-4c5c39a0ac90" testId="b64469f4-f509-bc16-7473-6d9c41518282" testName="Can_get_tracked_aggregate" computerName="FKVAIO" duration="00:00:00.0008148" startTime="2010-09-18T14:34:31.5304932+02:00" endTime="2010-09-18T14:34:31.5324933+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18f630ab-7e3d-42bc-811b-4c5c39a0ac90">
+    </UnitTestResult>
+    <UnitTestResult executionId="fad2c64e-9ead-48f9-afcb-03f8d7c6dacb" testId="740d589c-dfdf-2f7c-9011-4ce23e7c829f" testName="Can_track_aggregate" computerName="FKVAIO" duration="00:00:00.0007908" startTime="2010-09-18T14:34:31.5344934+02:00" endTime="2010-09-18T14:34:31.5364935+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fad2c64e-9ead-48f9-afcb-03f8d7c6dacb">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc61a35d-ee14-466c-abfd-fe2a40e92350" testId="9e277b9e-7103-bb68-12d9-9d382a8e63eb" testName="Events_are_published_to_bus_on_commit" computerName="FKVAIO" duration="00:00:00.0250420" startTime="2010-09-18T14:34:31.5394937+02:00" endTime="2010-09-18T14:34:31.5784959+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc61a35d-ee14-466c-abfd-fe2a40e92350">
+    </UnitTestResult>
+    <UnitTestResult executionId="d719ff56-4af9-4f94-9af0-9c80389bedc3" testId="9f841c14-b4e3-1a79-ed1b-02034833dca1" testName="Can_load_aggregate_from_xml" computerName="FKVAIO" duration="00:00:01.4961896" startTime="2010-09-18T14:34:31.5814961+02:00" endTime="2010-09-18T14:34:33.0885823+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d719ff56-4af9-4f94-9af0-9c80389bedc3">
+    </UnitTestResult>
+    <UnitTestResult executionId="05c51a9d-4420-4735-acd7-d0881758ff5c" testId="a18e2191-d0ae-0d31-3c62-8dc6f968ed18" testName="can_write_aggregate_to_xml" computerName="FKVAIO" duration="00:00:00.0050129" startTime="2010-09-18T14:34:33.0905824+02:00" endTime="2010-09-18T14:34:33.0975828+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05c51a9d-4420-4735-acd7-d0881758ff5c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

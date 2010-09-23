@@ -1,0 +1,116 @@
+@import "compass/reset";
+
+$backgroundColor: white;
+$textColor: #353535;
+$linkColor: #235870;
+
+body
+{
+	
+	font-family: "Segoe UI Light";
+	color: $textColor;
+	background-image:url("../bg_tile.jpg");
+	margin:25px;
+}
+
+h1
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:25px;
+	font-size:500%;
+
+	color:white;
+}
+
+a
+{
+	color: $linkColor;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: darken($linkColor, 50%);
+}
+
+.task
+{
+	margin:20px; 
+	padding:20px;
+	width:243px;
+	height:189px;
+	float:left;
+	background-image: url("../sticky.png");
+}
+
+.past_due
+{
+	background-image: url("../sticky_red.png");
+}
+
+.taskDescription
+{
+	font-size:170%;	
+	line-height:130%;
+	height:100px;
+}
+
+.task p
+{
+	@extend .taskDescription;
+}
+
+.task textarea
+{
+	@extend .taskDescription;
+
+	font-family: "Segoe UI Light";
+	width:100%;
+	height:140px;
+	border:none;
+	background-color:transparent;
+}
+
+.task span
+{
+	display:block;
+	margin-bottom:10px;
+	font-size:80%;
+	color: darken($textColor, 10%);
+}
+
+.task a
+{
+	font-size:80%;
+	position:relative;
+	top:50px;
+	margin-left:6px;
+	margin-right:5px;
+}
+
+
+.watermark 
+{
+   color: #999;
+}
+
+.footer
+{
+	margin-left:25px;
+	clear:both;
+}
+
+.field-validation-error
+{
+	background-color:#1C1C1C;
+	background-image:url(../warning_icon.png);
+	background-repeat:no-repeat;
+	padding: 5px;
+	padding-left:30px;
+	padding-top:3px;
+	left:25px;
+	position:relative;
+	color:white;
+}

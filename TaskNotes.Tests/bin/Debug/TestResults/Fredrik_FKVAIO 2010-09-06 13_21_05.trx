@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="31d48021-3554-42a7-957c-6b81edee6049" name="Fredrik@FKVAIO 2010-09-06 13:21:05" runUser="FKVaio\Fredrik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b82bb5d-938d-47a6-8c5b-afaf40dc0149">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fredrik_FKVAIO 2010-09-06 13_21_05" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-06T13:21:05.3742259+02:00" queuing="2010-09-06T13:21:05.6622424+02:00" start="2010-09-06T13:21:05.9212572+02:00" finish="2010-09-06T13:21:06.3702829+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TaskPostponed_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="48190fb3-47e2-4c5f-b51b-b8f8d829603b">
+      <Execution timeOut="1800000" id="2db6839a-d56a-4346-ab02-393ebf33ca4e" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_postponing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskPostponed_event_is_published" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="7a533ce9-67f5-f9af-ad97-121a2f49f974">
+      <Execution timeOut="1800000" id="4911c123-0286-4587-bd65-41c937c06f71" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_completing_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+    <UnitTest name="TaskCancelled_event_is_published" storage="c:\source\_projects\nexttask\nexttask.tests\bin\debug\nexttask.tests.dll" id="28c8e7d6-deb0-1a4d-e172-64b990106212">
+      <Execution timeOut="1800000" id="768a4a6a-256d-4dd6-92dc-663b71bf4cdd" />
+      <TestMethod codeBase="C:/Source/_Projects/NextTask/NextTask.Tests/bin/Debug/NextTask.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NextTask.Tests.When_cancelling_task, NextTask.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TaskCancelled_event_is_published" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28c8e7d6-deb0-1a4d-e172-64b990106212" executionId="768a4a6a-256d-4dd6-92dc-663b71bf4cdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" executionId="4911c123-0286-4587-bd65-41c937c06f71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" executionId="2db6839a-d56a-4346-ab02-393ebf33ca4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="768a4a6a-256d-4dd6-92dc-663b71bf4cdd" testId="28c8e7d6-deb0-1a4d-e172-64b990106212" testName="TaskCancelled_event_is_published" computerName="FKVAIO" duration="00:00:00.1814051" startTime="2010-09-06T13:21:05.9932613+02:00" endTime="2010-09-06T13:21:06.2642768+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="768a4a6a-256d-4dd6-92dc-663b71bf4cdd">
+    </UnitTestResult>
+    <UnitTestResult executionId="4911c123-0286-4587-bd65-41c937c06f71" testId="7a533ce9-67f5-f9af-ad97-121a2f49f974" testName="TaskCancelled_event_is_published" computerName="FKVAIO" duration="00:00:00.0077781" startTime="2010-09-06T13:21:06.2682770+02:00" endTime="2010-09-06T13:21:06.2822778+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4911c123-0286-4587-bd65-41c937c06f71">
+    </UnitTestResult>
+    <UnitTestResult executionId="2db6839a-d56a-4346-ab02-393ebf33ca4e" testId="48190fb3-47e2-4c5f-b51b-b8f8d829603b" testName="TaskPostponed_event_is_published" computerName="FKVAIO" duration="00:00:00.0104480" startTime="2010-09-06T13:21:06.2852780+02:00" endTime="2010-09-06T13:21:06.2992788+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2db6839a-d56a-4346-ab02-393ebf33ca4e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

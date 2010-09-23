@@ -1,0 +1,16 @@
+﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TaskDto>
+@{
+	Func<NextTask.Domain.TaskDto, string> determineClassesFor = m => m.IsPastDue ? "task past_due" : "task";
+	
+}
+	<div class="@determineClassesFor(Model)">
+	
+		<span>Due @Model.Due.ToString("HH:mm 'on' dddd d. MMMM");</span>
+		<p>@Model.Description</p>
+
+		<a href="/Task/Complete/@Model.Id">It's done!</a>
+		<a href="/Task/Prioritise/@Model.Id">Prioritise</a>
+		<a href="/Task/Postpone/@Model.Id">Postpone</a>
+		<a href="/Task/Cancel/@Model.Id">Cancel</a>
+	
+	</div>
