@@ -1,0 +1,8 @@
+Here's the initial version of my CQRS and event sourcing demo, where commands and events are all hooked up through an IOC container (Ninject2).
+
+The frontend is an ASP.NET MVC 3 app. Stylesheets are SASS (compiled via Compass).
+
+For now, the write-side persists to a simple xml file serializer (see XmlEventStorage), read-side to an in-memory dictionary (see TaskDtoRepository).
+
+Will throw up some blogs (http://iridescence.no) explaining the particulars when I get time.
+
