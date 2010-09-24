@@ -24,3 +24,16 @@ C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\TaskNotes.Tests\bin\Debug\nun
 C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\TaskNotes.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\TaskNotes.Tests\obj\Debug\TaskNotes.Tests.dll
 C:\Users\Fredrik\Documents\My Dropbox\Dev\NextTask\TaskNotes.Tests\obj\Debug\TaskNotes.Tests.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\TaskNotes.Tests.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\TaskNotes.Tests.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\Cqrs.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\Ninject.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\nunit.framework.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\TaskNotes.Domain.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\Cqrs.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\TaskNotes.Domain.pdb
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\Ninject.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\bin\Debug\nunit.framework.xml
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\obj\Debug\TaskNotes.Tests.dll
+C:\Users\fkalseth\Documents\My Dropbox\Dev\tasknotes\TaskNotes.Tests\obj\Debug\TaskNotes.Tests.pdb

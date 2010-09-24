@@ -20,9 +20,11 @@
 	
 	$(function()
 	{
-		$("#Due").change(function()
+		$("#Due").add("#NewDueDate")
+		.change(function()
 		{
-			this.value = Date.parse(this.value).toString('HH:mm dddd d. MMMM');		
+			this.value = Date.parse(this.value)
+							 .toString('HH:mm dddd d. MMMM');		
 		})
 		.click(function(){ this.select(); })
 		.watermark("Set due date here");

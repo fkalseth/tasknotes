@@ -60,10 +60,11 @@
   <ItemGroup>
     <Compile Include="Controllers\TaskController.cs" />
     <Compile Include="Controllers\TasksController.cs" />
+    <Compile Include="Domain\NewDueDateViewModel.cs" />
     <Compile Include="Infrastructure\DomainModule.asax.cs" />
     <Compile Include="Domain\TaskDto.cs" />
     <Compile Include="Domain\TaskDtoRepository.cs" />
-    <Compile Include="Domain\TasksDto.cs" />
+    <Compile Include="Domain\TasksViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -112,7 +113,7 @@
       <Project>{593F7590-D336-41B6-A903-35038EBA65B5}</Project>
       <Name>Cqrs</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NextTask.Domain\TaskNotes.Domain.csproj">
+    <ProjectReference Include="..\TaskNotes.Domain\TaskNotes.Domain.csproj">
       <Project>{111607CD-0726-4FD8-B30B-EEA67495CBE6}</Project>
       <Name>TaskNotes.Domain</Name>
     </ProjectReference>

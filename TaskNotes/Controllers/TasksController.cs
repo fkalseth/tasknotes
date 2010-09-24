@@ -14,14 +14,12 @@ namespace TaskNotes.Controllers
         public TasksController(TaskDtoRepository tasks)
         {
             _tasks = tasks;
-
-
         }
 
         public ViewResult All()
         {
             var tasks = _tasks.GetTasksNotYetCompleted();
-            return View(tasks);
+            return View(new TasksViewModel(tasks));
         }
     }
 }

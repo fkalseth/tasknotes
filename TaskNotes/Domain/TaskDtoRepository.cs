@@ -14,11 +14,11 @@ namespace TaskNotes.Domain
         IDomainEventHandler<TaskPostponed>,
         IDomainEventHandler<TaskPrioritised>
     {
-        public List<TaskDto> _tasks = new List<TaskDto>();
+        private readonly List<TaskDto>  _tasks = new List<TaskDto>();
 
-        public TasksDto GetTasksNotYetCompleted()
+        public TaskDto[] GetTasksNotYetCompleted()
         {
-            return new TasksDto(_tasks.OrderBy(t => t.Due).ToArray());
+            return _tasks.ToArray();
         }
 
         public TaskDto GetTaskById(Guid id)

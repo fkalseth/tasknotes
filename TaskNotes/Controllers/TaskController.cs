@@ -46,13 +46,13 @@ namespace TaskNotes.Controllers
         public ViewResult Prioritise(Guid taskId)
         {
             var task = _repository.GetTaskById(taskId);
-            return View(task);
+            return View(new NewDueDateViewModel(){TaskId = task.Id, Description = task.Description, NewDueDate = task.Due});
         }
         
         [HttpPost]
-        public ActionResult Prioritise(TaskDto task)
+        public ActionResult Prioritise(NewDueDateViewModel task)
         {
-            var command = new PrioritiseTaskCommand(task.Id, task.Due);
+            var command = new PrioritiseTaskCommand(task.TaskId, task.NewDueDate);
             return Execute(command) ?? View(task);
         }
 
@@ -60,13 +60,13 @@ namespace TaskNotes.Controllers
         public ViewResult Postpone(Guid taskId)
         {
             var task = _repository.GetTaskById(taskId);
-            return View(task);
+            return View(new NewDueDateViewModel{TaskId = task.Id, Description = task.Description, NewDueDate = task.Due});
         }
 
         [HttpPost]
-        public ActionResult Postpone(TaskDto task)
+        public ActionResult Postpone(NewDueDateViewModel task)
         {
-            var command = new PostponeTaskCommand(task.Id, task.Due);
+            var command = new PostponeTaskCommand(task.TaskId, task.NewDueDate);
             return Execute(command) ?? View(task);
         }
         

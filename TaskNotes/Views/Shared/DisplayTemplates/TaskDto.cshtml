@@ -1,6 +1,6 @@
-﻿@inherits System.Web.Mvc.WebViewPage<NextTask.Domain.TaskDto>
+﻿@inherits System.Web.Mvc.WebViewPage<TaskNotes.Domain.TaskDto>
 @{
-	Func<NextTask.Domain.TaskDto, string> determineClassesFor = m => m.IsPastDue ? "task past_due" : "task";
+	Func<TaskNotes.Domain.TaskDto, string> determineClassesFor = m => m.IsPastDue ? "task past_due" : "task";
 	
 }
 	<div class="@determineClassesFor(Model)">
