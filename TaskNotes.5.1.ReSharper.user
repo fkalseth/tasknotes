@@ -1,0 +1,133 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Infrastructure/f:DomainModule.asax.cs" caret="0" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Create.cshtml" caret="46" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Shared/d:DisplayTemplates/f:TaskDto.cshtml" caret="83" fromTop="2" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Prioritise.cshtml" caret="243" fromTop="7" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TasksViewModel.cs" caret="50" fromTop="2" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:NewDueDateViewModel.cs" caret="248" fromTop="10" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="22" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TasksController.cs" caret="549" fromTop="21" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Postpone.cshtml" caret="434" fromTop="17" />
+      <File id="111607CD-0726-4FD8-B30B-EEA67495CBE6/f:Task.cs" caret="1858" fromTop="15" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="701" fromTop="22" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Tasks/f:All.cshtml" caret="301" fromTop="14" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TaskController.cs" caret="351" fromTop="13" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Shared/f:_Master.cshtml" caret="905" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TaskController.cs" caret="1715" fromTop="16" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="23" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Postpone.cshtml" caret="73" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Prioritise.cshtml" caret="73" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TaskController.cs" caret="2230" fromTop="27" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Prioritise.cshtml" caret="394" fromTop="14" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Prioritise.cshtml" caret="243" fromTop="7" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Postpone.cshtml" caret="387" fromTop="14" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Task/f:Postpone.cshtml" caret="238" fromTop="7" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="30" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="37" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="16" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TaskController.cs" caret="2003" fromTop="16" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDto.cs" caret="465" fromTop="22" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TasksViewModel.cs" caret="105" fromTop="5" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TasksController.cs" caret="550" fromTop="21" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="616" fromTop="14" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="487" fromTop="10" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="27" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="21" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="15" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="10" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="5" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="1" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="765" fromTop="19" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Domain/f:TaskDtoRepository.cs" caret="175" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Controllers/f:TaskController.cs" caret="36" fromTop="1" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Tasks/f:All.cshtml" caret="68" fromTop="0" />
+      <File id="E03CC241-2E6B-4406-ACE0-F60A461AF7AF/d:Views/d:Shared/f:_Master.cshtml" caret="1018" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.7\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Xml.XPath.XPathDocument">
+      <Item value="CreateNavigator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XPath.XPathNavigator">
+      <Item value="OuterXml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="10" />
+      <Item value="class" priority="2" />
+      <Item value="Guid`0" priority="1" />
+      <Item value="string" priority="2" />
+      <Item value="TaskDto`0" priority="3" />
+      <Item value="AppDomainSetup`0" priority="0" />
+      <Item value="new" priority="4" />
+      <Item value="task" priority="9" />
+      <Item value="PrioritiseTaskViewModel`0" priority="1" />
+      <Item value="Task`0" priority="0" />
+      <Item value="TaskId" priority="1" />
+      <Item value="Description" priority="1" />
+      <Item value="NewDueDate" priority="0" />
+      <Item value="Due" priority="0" />
+      <Item value="ValidationAttribute`0" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="After" priority="0" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="AfterAttribute`0" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="validationContext" priority="1" />
+      <Item value="NewDueDateViewModel`0" priority="0" />
+      <Item value="return" priority="2" />
+      <Item value="value" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="vm" priority="1" />
+      <Item value="ValidationResult" priority="1" />
+      <Item value="OriginalDueDate" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="_tasks" priority="1" />
+      <Item value="IDomainEventHandler" priority="0" />
+      <Item value="TaskCreated`0" priority="0" />
+      <Item value="TaskDtoRepository`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TaskNotes.Domain.PrioritiseTaskViewModel">
+      <Item value="Due" priority="0" />
+      <Item value="Task" priority="0" />
+      <Item value="NewDueDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TaskNotes.Domain.TaskDto">
+      <Item value="Id" priority="1" />
+      <Item value="Description" priority="1" />
+      <Item value="Due" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.DataAnnotations.ValidationContext">
+      <Item value="ObjectInstance" priority="0" />
+      <Item value="DisplayName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TaskNotes.Domain.NewDueDateViewModel">
+      <Item value="OriginalDueDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
