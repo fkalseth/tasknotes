@@ -8,6 +8,4 @@ For now, the write-side persists to a simple xml file
 serializer (see XmlEventStorage), read-side to an 
 in-memory dictionary (see TaskDtoRepository).
 
-Will throw up some blogs (http://iridescence.no) 
-explaining the particulars when I get time.
 
